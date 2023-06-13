@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Red Rose';
+  src: url('fonts/RedRose-Regular.ttf') format('truetype');
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.confirm {
+  width: 520px;
+  height: 150px;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #453F73;
+  color: #fff;
+  margin: 0;
+  padding: 10px;
+  font-family: 'Red Rose', Arial, sans-serif;
+  font-size: 20px;
+}
+
+.message {
+  text-align: center;
+  font-family: 'Red Rose', Arial, sans-serif;
+  font-size: 18px;
+}
+
+.buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn {
+  margin-right: 20px;
+  padding: 10px 45px;
+  background-color: #453F73;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn:last-child {
+  margin-right: 0;
+}
